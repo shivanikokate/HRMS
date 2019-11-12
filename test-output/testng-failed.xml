@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <parameter name="browser" value="param-val-not-found"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Testng_Example.TC_102">
+        <methods>
+          <include name="setUp"/>
+          <include name="openChrome"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Testng_Example.TC_102 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

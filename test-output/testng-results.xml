@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="167" started-at="2019-11-12T05:18:46Z" finished-at="2019-11-12T05:18:47Z">
+    <groups>
+      <group name="Functional">
+        <method signature="TC_5131.meth4()[pri:0, instance:com.hrms.testscripts.TC_5131@3d8c7aca]" name="meth4" class="com.hrms.testscripts.TC_5131"/>
+      </group> <!-- Functional -->
+      <group name="Sanity">
+        <method signature="TC_5131.meth3()[pri:0, instance:com.hrms.testscripts.TC_5131@3d8c7aca]" name="meth3" class="com.hrms.testscripts.TC_5131"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_5131.meth1()[pri:0, instance:com.hrms.testscripts.TC_5131@3d8c7aca]" name="meth1" class="com.hrms.testscripts.TC_5131"/>
+        <method signature="TC_5131.meth2()[pri:0, instance:com.hrms.testscripts.TC_5131@3d8c7aca]" name="meth2" class="com.hrms.testscripts.TC_5131"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Default test" duration-ms="167" started-at="2019-11-12T05:18:46Z" finished-at="2019-11-12T05:18:47Z">
+      <class name="com.hrms.testscripts.TC_5131">
+        <test-method status="PASS" signature="meth1()[pri:0, instance:com.hrms.testscripts.TC_5131@3d8c7aca]" name="meth1" duration-ms="39" started-at="2019-11-12T10:48:47Z" finished-at="2019-11-12T10:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth1 -->
+        <test-method status="PASS" signature="meth2()[pri:0, instance:com.hrms.testscripts.TC_5131@3d8c7aca]" name="meth2" duration-ms="3" started-at="2019-11-12T10:48:47Z" finished-at="2019-11-12T10:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth2 -->
+        <test-method status="PASS" signature="meth3()[pri:0, instance:com.hrms.testscripts.TC_5131@3d8c7aca]" name="meth3" duration-ms="5" started-at="2019-11-12T10:48:47Z" finished-at="2019-11-12T10:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth3 -->
+        <test-method status="PASS" signature="meth4()[pri:0, instance:com.hrms.testscripts.TC_5131@3d8c7aca]" name="meth4" duration-ms="6" started-at="2019-11-12T10:48:47Z" finished-at="2019-11-12T10:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth4 -->
+      </class> <!-- com.hrms.testscripts.TC_5131 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parallel Suites" parallel="tests">
+<test name="Test in GC">
+<parameter name="browser" value="Chrome"/>
+<classes>
+<class name="com.hrms.parallel.TC_102"/>
+</classes>
+</test>
+<test name="Test in FF">
+<parameter name="browser" value="Firefox"/>
+<classes>
+<class name="com.hrms.parallel.TC_101"/>
+</classes>
+</test>
+</suite>
